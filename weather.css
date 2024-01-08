@@ -1,0 +1,55 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    background-image: url(image/wallpaper.jpg);
+    background-size: cover;
+
+  }
+  
+.container {
+    margin: auto;
+    max-width: 80%;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+#cityName {
+    padding: 8px;
+    border-radius: 0.5rem;
+    /* margin-right: 1rem; */
+    font-size: 12px;
+    border-radius: 0.6rem;
+}
+
+#search {
+
+    font-size: 12px;
+    border-radius: 0.6rem;
+    padding: 8px 14px;
+    cursor: pointer;
+}
+
+  
+/* city name in bold */
+#city {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+/* properties for all the description */
+#timezone,
+#description,
+#pressure,
+#humidity,
+#wind,
+#temp
+{
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+  
+
+  
+  
+ 
